@@ -1,0 +1,28 @@
+void main(){
+String name="Anum";
+print ("Studentname${name}");
+double eng= 82;
+double urdu=80;
+double math=95;
+double science=70;
+double history=65;
+double geography=92;
+double islamiat=88;
+double obtainedtotal=eng+urdu+math+science+history+geography+islamiat; 
+print("obtaineddtotal=${obtainedtotal}");
+double per=(obtainedtotal/700)*100;
+print ("percentage=${per.toStringAsFixed(2)}");
+if(per<= 100 && per>= 85){
+print("GradeA1");
+}else if (per<= 84  && per>=80){ 
+print ("GradeA");
+}else if (per <=79 && per >=75){ 
+print ("GradeB");
+}else if (per <=74 && per >=70){
+print ("GradeC");
+}else{
+print("Fail");   
+} 
+
+
+ 
